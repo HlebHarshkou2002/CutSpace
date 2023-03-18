@@ -1,0 +1,23 @@
+.navigation__list {
+    ul {
+        display: flex;
+
+    }
+
+    li:not(:last-child){
+        margin-right: 42px;
+    }
+
+    li:last-child {
+        margin-left: 40px;
+    }
+
+    a {
+        &:hover {
+            color: $accent-color; 
+        }
+        &:active {
+            font-weight: 700; 
+        }
+    }
+}
